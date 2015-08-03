@@ -12,6 +12,8 @@ Check if an npm package name is valid and does not currently exist.
 
 uses [validate-npm-package-name](https://www.npmjs.com/package/validate-npm-package-name) to check naming rules and uses `npm view` (via [shelljs](https://www.npmjs.com/package/shelljs)) to check if the package exists.
 
+The return values are set up to conform to [inquirer](https://www.npmjs.com/package/inquirer)'s validate function expectations.
+
 Because of the reliance on `shelljs` and `npm`, this package will not work in the browser, sorry!
 
 ## Install
