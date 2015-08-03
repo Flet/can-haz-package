@@ -1,7 +1,7 @@
 {
   "name": "can-haz-package",
   "description": "Check if an npm pacakge name is valid and does not exist.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Dan Flettre <fletd01@yahoo.com>",
   "bugs": {
     "url": "https://github.com/flet/can-haz-package/issues"
