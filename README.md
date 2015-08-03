@@ -8,11 +8,11 @@
 [travis-image]: https://img.shields.io/travis/Flet/can-haz-package.svg?style=flat-square
 [travis-url]: https://travis-ci.org/Flet/can-haz-package
 
-Check if an npm pacakge name is valid and does not exist.
+Check if an npm package name is valid and does not currently exist.
 
 uses [validate-npm-package-name](https://www.npmjs.com/package/validate-npm-package-name) to check naming rules and uses `npm view` (via [shelljs](https://www.npmjs.com/package/shelljs)) to check if the package exists.
 
-This package will not work in the browser, sorry!
+Because of the reliance on `shelljs` and `npm`, this package will not work in the browser, sorry!
 
 ## Install
 
